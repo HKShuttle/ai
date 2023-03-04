@@ -11,6 +11,8 @@ export default class extends Module {
 
 	@autobind
 	public install() {
+		if (config.pollEnabled === false) return {};
+
 		setInterval(() => {
 			if (Math.random() < 0.1) {
 				this.post();

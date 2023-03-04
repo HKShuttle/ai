@@ -9,6 +9,7 @@ type Config = {
 	notingEnabled: boolean;
 	chartEnabled: boolean;
 	serverMonitoring: boolean;
+	pollEnabled: boolean;
 	mecab?: string;
 	mecabDic?: string;
 	memoryDir?: string;
