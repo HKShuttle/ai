@@ -339,25 +339,25 @@ export default {
 	reminder: {
 		invalid: 'うーん...？',
 
-		doneFromInvalidUser: 'イタズラはめっですよ！',
+		doneFromInvalidUser: 'こら、イタズラ！！！ｗ',
 
-		reminds: 'やること一覧です！',
+		reminds: 'やること一覧よ！',
 
-		notify: (name) => name ? `${name}、これやりましたか？` : `これやりましたか？`,
+		notify: (name) => name ? `${name}、これやったのー？` : `これやったのー？`,
 
-		notifyWithThing: (thing, name) => name ? `${name}、「${thing}」やりましたか？` : `「${thing}」やりましたか？`,
+		notifyWithThing: (thing, name) => name ? `${name}、「${thing}」やったー？` : `「${thing}」やったー？`,
 
 		done: (name) => name ? [
-			`よく出来ました、${name}♪`,
-			`${name}、さすがですっ！`,
-			`${name}、えらすぎます...！`,
+			`すごーい！${name}♪`,
+			`${name}、さすがっ！`,
+			`${name}、えらすぎ...！`,
 		] : [
-			`よく出来ました♪`,
-			`さすがですっ！`,
-			`えらすぎます...！`,
+			`すごーい！！`,
+			`さっすがー！`,
+			`:erait:`,
 		],
 
-		cancel: `わかりました。`,
+		cancel: `わかったわ`,
 	},
 
 	/**
